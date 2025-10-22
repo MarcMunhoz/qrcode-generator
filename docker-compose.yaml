@@ -1,0 +1,15 @@
+services:
+  generator:
+    build: .
+    container_name: aztec-generator_ctn
+    image: aztec-generator_img
+    working_dir: /app
+    volumes:
+      - ./app/output:/app/output
+      - ./app/assets:/app/assets
+      - ./app/generate.py:/app/generate.py
+      - ./app/requirements.txt:/app/requirements.txt
+    environment:
+      COUNT: 64
+      IMAGE_SIZE: 500
+    command: ["python", "generate.py"]

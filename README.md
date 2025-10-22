@@ -1,4 +1,4 @@
-# Gerador de Aztec QRCodes - "MESA 01" a "MESA 64"
+# Gerador de QRCodes
 
 Projeto em **Python (Pillow + Treepoem)** dentro de **Docker**, para gerar códigos **Aztec** numerados com logo central e rótulo abaixo.
 

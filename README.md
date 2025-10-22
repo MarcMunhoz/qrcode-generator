@@ -1,6 +1,6 @@
 # Gerador de QRCodes
 
-Projeto em **Python (Pillow + Treepoem)** dentro de **Docker**, para gerar códigos **Aztec** numerados com logo central e rótulo abaixo.
+Projeto em **Python (Pillow + Segno)** dentro de **Docker**, para gerar **QRCodes** numerados com logo central e rótulo abaixo.
 
 ---
 
